@@ -3,8 +3,6 @@
 import os
 import boto3
 
-#variables for lambda 
-
 AMI = os.environ['AMI']
 INSTANCE_TYPE = os.environ['INSTANCE_TYPE']
 KEY_NAME = os.environ['KEY_NAME']
