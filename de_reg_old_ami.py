@@ -35,3 +35,4 @@ def lambda_handler(event, context):
 
                 # Deregister the AMI
                 ec2.deregister_image(ImageId=image_id)
+
