@@ -51,3 +51,4 @@ def evaluate_compliance(config_item, rule_parameters):
     else:
         print('NON_COMPLIANT')
         return 'NON_COMPLIANT'
+#
